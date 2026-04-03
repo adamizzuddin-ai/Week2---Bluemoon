@@ -7,8 +7,8 @@
 Command: `ip a`
 My Kali Linux is located at **192.168.56.102**.
 
-![Network Info](<img width="1017" height="736" alt="image" src="https://github.com/user-attachments/assets/b1a8b85e-7a9b-4058-a736-9b24987f8819" />
-)
+[<img width="1017" height="736" alt="image" src="https://github.com/user-attachments/assets/b1a8b85e-7a9b-4058-a736-9b24987f8819" />](https://github.com/adamizzuddin-ai/Week2---Bluemoon/blob/main/image_2026-04-03_220719814.png?raw=true)
+
 
 ## 2. Host Discovery
 Command: `nmap -sn 192.168.56.0/24`
