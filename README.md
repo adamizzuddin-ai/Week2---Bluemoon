@@ -14,8 +14,9 @@ My Kali Linux is located at **192.168.56.102**.
 Command: `nmap -sn 192.168.56.0/24`
 The BlueMoon machine was identified at **192.168.56.101**.
 
-![Network Scan](<img width="1017" height="740" alt="image" src="https://github.com/user-attachments/assets/2dd0665f-6904-4cf6-818f-5e5951e182d9" />
-)
+<img width="1017" height="740" alt="image" src="https://github.com/user-attachments/assets/e7ceca35-1068-4f42-be8c-d4b61c93eb77" />
+
+
 
 ## 3. Service Enumeration
 Command: `nmap -sV 192.168.56.101`
