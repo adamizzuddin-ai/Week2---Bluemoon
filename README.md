@@ -53,8 +53,9 @@ Credentials from a QR code were used to log into FTP and retrieve `p_lists.txt`.
 
 ## 3. SSH Brute Force
 **Hydra** cracked the password for user `robin`: `k4rv3ndh4nh4ck3r`.
-![Hydra Success](<img width="1005" height="767" alt="image" src="https://github.com/user-attachments/assets/12ad940d-ed9d-4df7-86ff-2a0fffa2290f" />
-)
+<img width="1005" height="767" alt="image" src="https://github.com/user-attachments/assets/1556e716-d8fa-44ea-b0f8-fb7c200b0731" />
+
+
 
 ## 4. Initial Access (User-1 Flag)
 Accessed the system via SSH and retrieved the first flag.
