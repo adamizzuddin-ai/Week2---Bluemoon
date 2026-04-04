@@ -59,7 +59,8 @@ Credentials from a QR code were used to log into FTP and retrieve `p_lists.txt`.
 
 ## 4. Initial Access (User-1 Flag)
 Accessed the system via SSH and retrieved the first flag.
-![User-1 Flag](image_9e8c69.png)
+<img width="797" height="678" alt="image" src="https://github.com/user-attachments/assets/828869d9-89ee-4e16-93b5-b7f0356a2425" />
+
 
 ## 5. Privilege Escalation Path
 Analysis of sudo permissions showed that `robin` can run a script as `jerry`.
