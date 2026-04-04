@@ -74,5 +74,6 @@ Exploited command injection in the feedback script to become `jerry`.
 
 ## 7. Final Root Compromise
 Exploited `jerry`'s membership in the **docker** group to escape to the host filesystem as **root**.
-![Root Flag](image_9f75d9.png)
+<img width="771" height="736" alt="image" src="https://github.com/user-attachments/assets/044e7cbf-6f95-42d2-bdf8-228a3bfae306" />
+
 
