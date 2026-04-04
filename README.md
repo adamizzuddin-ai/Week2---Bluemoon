@@ -42,11 +42,13 @@ The scan identified hidden directories and files including `/index.html`.
 
 ## 1. Web Enumeration & Directory Discovery
 Using **Gobuster**, a hidden directory was discovered at `/hidden_text`.
-![Gobuster Results](image_9db328.png)
+![Gobuster Results](<img width="968" height="722" alt="image" src="https://github.com/user-attachments/assets/b80bb1af-585c-42ef-ad75-08bded46615b" />
+
 
 ## 2. FTP Data Exfiltration
 Credentials from a QR code were used to log into FTP and retrieve `p_lists.txt`.
-![FTP Download](image_9e23c9.png)
+![FTP Download](<img width="1415" height="543" alt="image" src="https://github.com/user-attachments/assets/90bb5201-8797-4792-842a-cc1d04da748d" />
+)
 
 ## 3. SSH Brute Force
 **Hydra** cracked the password for user `robin`: `k4rv3ndh4nh4ck3r`.
