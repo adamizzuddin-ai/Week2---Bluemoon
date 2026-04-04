@@ -69,7 +69,8 @@ Analysis of sudo permissions showed that `robin` can run a script as `jerry`.
 
 ## 6. Escalation to User-2 (Jerry Flag)
 Exploited command injection in the feedback script to become `jerry`.
-![User-2 Flag](image_9f1aea.png)
+<img width="622" height="605" alt="image" src="https://github.com/user-attachments/assets/a7c872fc-17ad-4828-843b-afff46acb922" />
+
 
 ## 7. Final Root Compromise
 Exploited `jerry`'s membership in the **docker** group to escape to the host filesystem as **root**.
