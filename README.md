@@ -64,7 +64,8 @@ Accessed the system via SSH and retrieved the first flag.
 
 ## 5. Privilege Escalation Path
 Analysis of sudo permissions showed that `robin` can run a script as `jerry`.
-![Sudo Permissions](image_9e9c42.png)
+<img width="730" height="907" alt="image" src="https://github.com/user-attachments/assets/7e42b768-f98f-40ff-8181-67ce99f7b43a" />
+
 
 ## 6. Escalation to User-2 (Jerry Flag)
 Exploited command injection in the feedback script to become `jerry`.
