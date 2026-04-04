@@ -37,3 +37,34 @@ The scan identified hidden directories and files including `/index.html`.
 
 [<img width="992" height="757" alt="image" src="https://github.com/user-attachments/assets/2022b458-5cf1-4cf3-960c-1c0c74b65c62" />](https://github.com/adamizzuddin-ai/Week2---Bluemoon/edit/main/README.md)
 
+
+# Penetration Testing Report: BlueMoon-2021
+
+## 1. Web Enumeration & Directory Discovery
+Using **Gobuster**, a hidden directory was discovered at `/hidden_text`.
+![Gobuster Results](image_9db328.png)
+
+## 2. FTP Data Exfiltration
+Credentials from a QR code were used to log into FTP and retrieve `p_lists.txt`.
+![FTP Download](image_9e23c9.png)
+
+## 3. SSH Brute Force
+**Hydra** cracked the password for user `robin`: `k4rv3ndh4nh4ck3r`.
+![Hydra Success](image_9e2e6e.png)
+
+## 4. Initial Access (User-1 Flag)
+Accessed the system via SSH and retrieved the first flag.
+![User-1 Flag](image_9e8c69.png)
+
+## 5. Privilege Escalation Path
+Analysis of sudo permissions showed that `robin` can run a script as `jerry`.
+![Sudo Permissions](image_9e9c42.png)
+
+## 6. Escalation to User-2 (Jerry Flag)
+Exploited command injection in the feedback script to become `jerry`.
+![User-2 Flag](image_9f1aea.png)
+
+## 7. Final Root Compromise
+Exploited `jerry`'s membership in the **docker** group to escape to the host filesystem as **root**.
+![Root Flag](image_9f75d9.png)
+
